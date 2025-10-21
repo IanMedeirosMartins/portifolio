@@ -108,3 +108,46 @@ body{
     align-items: center;
 }
 
+@media(max-width: 1200px){
+    .c1{
+        margin-right: 2rem;
+        font-size: 2rem;
+    }
+    .c1-2{
+        gap: 4rem;
+    }
+    .a1, .a2{
+        font-size: 2rem;
+    }
+    .main1{
+        flex-direction: column;
+        margin: 5rem 2rem 0rem 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    .s1{
+        max-width: 100%;
+    }
+    .hh1{
+        font-size: 2rem;
+    }
+    .hh2{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .hh3{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .a3, .a4{
+        font-size: 20px;
+        padding: 15px 10px;
+    }
+    .img1{
+        margin-left: 0px;
+        margin-top: 3rem;
+        height: auto;
+        width: 100%;
+    }
+}    
+
