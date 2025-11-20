@@ -88,6 +88,10 @@ body{
 .img1{
     margin-left: 80px;
     height: 466px;
+    /* Estilos Adicionados */
+    border-radius: 8px; /* Borda levemente arredondada */
+    border: 4px solid var(--cor-principal); /* Borda sólida com a cor principal */
+    box-shadow: 0 0 20px var(--cor-principal); /* Sombra para destacar */
 }
 
 .f1{
@@ -148,6 +152,9 @@ body{
         margin-top: 3rem;
         height: auto;
         width: 100%;
+        /* Estilos Adicionados */
+        border-radius: 8px; 
+        border: 4px solid var(--cor-principal); 
+        box-shadow: 0 0 10px var(--cor-principal); /* Sombra mais sutil em telas pequenas */
     }
 }    
-
